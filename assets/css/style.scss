@@ -1,0 +1,12 @@
+@import 'base/normalize';
+@import 'base/reset';
+@import 'helpers/variaveis';
+@import 'helpers/mixins';
+@import 'layout/app';
+@import 'layout/cabecalho';
+@import 'layout/conteudo';
+@import 'layout/conteudos/destaques';
+@import 'layout/conteudos/populares';
+@import 'layout/midias.scss';
+
+@import 'layout/rodape';

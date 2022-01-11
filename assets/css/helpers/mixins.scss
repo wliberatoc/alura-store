@@ -1,0 +1,11 @@
+@mixin image-destaque($url){
+    background: url('#{$url}') center / cover no-repeat;
+}
+
+%destaque-secundario-none{
+    @media #{$mq-mobile} {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+}
